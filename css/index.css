@@ -1,0 +1,66 @@
+/****************************************************************************/
+/*INFO SECTION SELECTORS*****************************************************/
+/****************************************************************************/
+
+.info {
+    width: 70%;
+    margin: 80px auto;
+    margin: 80px auto 0px auto;
+    text-align: center;
+}
+
+.info div {
+    display: inline-block;
+}
+
+.info .icon img{
+    width: 230px;
+    border-radius: 10%;
+}
+
+.info .icon div {
+    display: block;
+    margin-top: 10px;
+}
+
+.description {
+    text-align: justify;
+    position: relative;
+    top: -210px;
+    left: 20px;
+}
+
+.description h2 {
+    font-size: 35px;
+}
+
+.description p {
+    font-size: 20px;
+}
+
+
+/****************************************************************************/
+/*INFO SECTION RESPONSIVE****************************************************/
+/****************************************************************************/
+
+@media screen and (max-width: 1025px) {
+    .info div {
+        display: block;
+    }
+
+    .description {
+        top: 30px;
+        left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 691px) {
+    .description .no-space {
+        display: inline;
+    }
+
+    .description br {
+        display: none;
+    }
+}
