@@ -9,6 +9,18 @@
 
 body {
     overflow-x: hidden;
+    font-family: 'Arvo', sans-serif;
+    background: #222629;
+    color: white;
+}
+
+.gray {
+    background: rgba(71, 75, 79, 0.3);
+    opacity: 1;
+}
+
+.abel-font {
+    font-family: 'Abel', sans-serif;
 }
 
 ul {
@@ -32,19 +44,17 @@ a:active {
     text-decoration: none;
 }
 
-body {
-    background: black;
-    color: white;
-}
-
 
 /****************************************************************************/
 /*HEADER SELECTORS***********************************************************/
 /****************************************************************************/
 
 .header {
-    width: 90%;
-    margin: 10px auto;
+    z-index: 10;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 5px 80px;
 }
 
 .header div {
@@ -104,6 +114,11 @@ body {
 
 .footer {
     text-align: center;
+    background: #474B4F;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
 }
 
 /****************************************************************************/
@@ -113,6 +128,7 @@ body {
 @media screen and (max-width: 504px) {
     .header {
         text-align: center;
+        padding: 5px 50px;
     }
 
     .title {
