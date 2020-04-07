@@ -6,13 +6,22 @@
     text-align: center;
     margin: 80px auto 0px auto;
     font-size: 35px;
+    background: #474B4F;
+}
+
+.other-section {
+    text-align: center;
+    margin: 0px auto 0px auto;
+    font-size: 35px;
+    background: #474B4F;
 }
 
 .games {
-    width: 70%;
-    margin: 10px auto;
+    width: 100%;
+    margin: 0px auto;
     text-align: center;
     color: black;
+    padding: 0 180px;
 }
 
 .games-container li:first-child {
@@ -20,9 +29,18 @@
 }
 
 .games-container li {
-    background: rgba(255, 255, 255, 0.8);
+    background: #222629;
     margin-top: 50px;
     border-radius: 10px;
+    width: 210px;
+}
+
+.bg1 {
+    background: url(../img/ROPImage.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 7px;
 }
 
 .content .block {
@@ -41,17 +59,22 @@
 }
 
 .content .store {
-    width: 200px;
+    font-size: 14px;
+    padding: 0px 7px;
+    border-radius: 4px;
+    background: #813772;
+    margin-top: 8px;
 }
 
 .cover img {
+    opacity: 1;
     width: 200px;
     height: 131px;
+    margin-top: 30px;
 }
 
 .content .logo {
     position: relative;
-    margin-right: 50px;
 }
 
 .content .icon img {
@@ -61,28 +84,16 @@
 }
 
 /****************************************************************************/
-/*OTHERS SECTION SELECTORS***************************************************/
+/*FOOTER SELECTORS***********************************************************/
 /****************************************************************************/
-/*
-.other-icon img {
-    width: 64px;
-    margin-left: 50px;
-    position: relative;
-    top: -25px;
-}
 
-.other-logo {
-    margin-top: 30px;
-    margin-right: 50px;
-    vertical-align: middle;
+.footer-two {
+    text-align: center;
+    background: #474B4F;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
 }
-
-.other-description p {
-    background: rgb(128, 128, 128, 0.6);
-    padding: 20px;
-    position: relative;
-    top: -38px;
-} */
 
 .other-icon img {
     width: 64px;
