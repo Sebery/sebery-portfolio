@@ -155,4 +155,13 @@ a:active {
         margin-top: 20px;
         margin-right: 10px;
     }
+
+    .footer {
+        position: static;
+    }
+
+    
+    .list li {
+        margin: 0 15px;
+    }
 }

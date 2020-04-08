@@ -21,7 +21,6 @@
     margin: 0px auto;
     text-align: center;
     color: black;
-    padding: 0 180px;
 }
 
 .games-container li:first-child {
@@ -30,9 +29,14 @@
 
 .games-container li {
     background: #222629;
-    margin-top: 50px;
     border-radius: 10px;
     width: 210px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.games-container li div {
+    margin: 10px 0px 25px 0px;
 }
 
 .bg1 {
@@ -43,27 +47,57 @@
     border-radius: 7px;
 }
 
+.bg1:hover {
+    background-size: 210px;
+}
+
+.bg2 {
+    background: url(../img/S3.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 7px;
+}
+
+.bg2:hover {
+    background-size: 280px;
+}
+
+.bg3 {
+    background: url(../img/TheGoodMinerS.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 7px;
+}
+
+.bg:hover {
+    background-size: 280px;
+}
+
+.bg4 {
+    background: url(../img/SJMS.png);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    border-radius: 7px;
+} 
+
+.bg4:hover {
+    background-size: 280px;
+}
+
 .content .block {
     display: inline-block;
-}
-
-.content p {
-    text-align: left;
-}
-
-.content .description {
-    background: rgb(128, 128, 128, 0.6);
-    padding: 20px;
-    position: relative;
-    margin: 20px 0;
 }
 
 .content .store {
     font-size: 14px;
     padding: 0px 7px;
     border-radius: 4px;
-    background: #813772;
-    margin-top: 8px;
+    position: relative;
+    top: 10px;
+    width: 40%;
 }
 
 .cover img {
@@ -79,8 +113,18 @@
 
 .content .icon img {
     width: 64px;
-    margin-left: 50px;
-    margin-bottom: 25px;
+}
+
+.red {
+    background-color: #a60b0b;
+}
+
+.purple {
+    background-color: #813772;
+}
+
+.blue {
+    background-color: #0f579f;
 }
 
 /****************************************************************************/
@@ -95,27 +139,6 @@
     padding: 10px 0;
 }
 
-.other-icon img {
-    width: 64px;
-    margin-left: 50px;
-    position: relative;
-    vertical-align: middle;
-}
-
-.other-logo {
-    vertical-align: middle;
-    margin: 20px 50px 20px 0px;
-}
-
-.other-description p {
-    background: rgb(128, 128, 128, 0.6);
-    padding: 20px;
-    position: relative;
-    vertical-align: middle;
-}
-
-
-
 /****************************************************************************/
 /*GAMES SECTION RESPONSIVE***************************************************/
 /****************************************************************************/
@@ -123,10 +146,6 @@
 @media screen and (max-width: 1147px) {
     .content {
         padding-top: 10px;
-    }
-
-    .content .block {
-        display: block;
     }
 
     .content p {
@@ -146,29 +165,15 @@
     }
 }
 
-/****************************************************************************/
-/*OTHERS SECTION RESPONSIVE**************************************************/
-/****************************************************************************/
-
-@media screen and (max-width: 1147px) {
-    .other-icon img {
-        margin-left: 0;
-        top: 0px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .other-icon {
-        margin: 0 auto;;
-    }
-    
-    .other-logo {
-        margin-right: 0px;
-    }
-    
-    .other-description p {
-        margin-top: 20px;
-        position: static;
-        top: 0px;
+@media screen and (max-width: 504px) {
+    .section {
+        margin: 110px auto 0px auto;
     }
 }
+
+@media screen and (max-width: 429px) {
+    .section {
+        margin: 150px auto 0px auto;
+    }
+}
+
