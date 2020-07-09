@@ -1,0 +1,103 @@
+/* GENERAL STYLES */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	background: url(/img/Background.png);
+	overflow: hidden;
+}
+
+img {
+	width: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+/*MAIN CONTAINER GRID */
+
+/* SLIDER */
+
+/*
+.navbar-container {
+	grid-area: base;
+	height: 100%;
+	width: 100%;
+}
+
+.label-container {
+	background: blue;
+	position: absolute;
+	z-index: 900;
+	bottom: 0px;
+	width: 100%;
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+}
+
+.label-container label {
+	cursor: pointer;
+	padding-left: 10px;
+}
+
+.section {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 100%;
+	top: 0px;
+	transition: all 1s ease;
+}
+
+[id^="section"]:checked + .section {
+	left: 0;
+	z-index: 100;
+	transition: left 0.65s ease-out;
+}
+
+.navbar-container input {
+	opacity: 0;
+} */
+
+/*
+.general-container {
+	background: red;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 10% 70% 20%;
+	grid-template-areas:
+		"social social"
+		"content links"
+		"navbar navbar";
+}
+
+.navbar-container {
+	grid-area: navbar;
+	background: blue;
+}
+
+.item {
+	grid-area: content;
+}
+
+.social-container {
+	grid-area: social;
+}
+
+.links-container {
+	grid-area: links;
+}
+
+img {
+	width: 20px;
+} */

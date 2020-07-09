@@ -26,20 +26,20 @@
 		/>
 	</head>
 	<body>
-
-        <!-- GENERAL CONTAINER -->
+		<!-- MAIN CONTAINER -->
 		<div class="general-container">
+			<!-- NAVBAR CONTAINER -->
 			<div class="navbar-container">
 				<div class="label-container">
-					<label for="section-1">Home</label>
-					<label for="section-2">Projects</label>
-					<label for="section-3">Skills</label>
-					<label for="section-4">About Me</label>
+					<label for="item-1">Home</label>
+					<label for="item-2">Projects</label>
+					<label for="item-3">Skills</label>
+					<label for="item-4">About Me</label>
 				</div>
 
 				<!-- HOME CONTAINER -->
-				<input id="section-1" type="radio" name="section" id="section-1" />
-				<div class="section section-1">
+				<input type="radio" name="item" id="item-1" checked />
+				<div class="item home-container">
 					<main>
 						<header>
 							<h1>Sebastián [Sebery] - Front End Developer</h1>
@@ -49,8 +49,8 @@
 				</div>
 
 				<!-- PROJECTS CONTAINER -->
-				<input id="section-2" type="radio" name="section" id="section-2" />
-				<div class="section section-2">
+				<input type="radio" name="item" id="item-2" />
+				<div class="item projects-container">
 					<div class="project-container">
 						<img src="/img/projectImage.png" alt="Project Image Reference" />
 						<p>Description about the project.</p>
@@ -137,8 +137,8 @@
 				</div>
 
 				<!-- SKILLS CONTAINER -->
-				<input id="section-3" type="radio" name="section" id="section-3" />
-				<div class="section section-3">
+				<input type="radio" name="item" id="item-3" />
+				<div class="item skills-container">
 					<div class="skill-container">
 						<img src="/img/htmlIcon.png" alt="Skill Icon" />
 						<h2>HTML</h2>
@@ -171,16 +171,52 @@
 				</div>
 
 				<!-- ABOUT ME CONTAINER -->
-				<input id="section-4" type="radio" name="section" id="section-4" />
-				<div class="section section-4">
+				<input type="radio" name="item" id="item-4" />
+				<div class="item about-container">
 					<img src="/img/sebastianPhoto.JPEG" alt="Sebastián Photo" />
 
 					<h2>My Story</h2>
 					<p>This is my story as programmer and person.</p>
 				</div>
-            </div>
-            
-            <div>Holiwis</div>
+			</div>
+
+			<!-- SOCIAL MEDIA CONTAINER -->
+			<div class="social-container">
+				<ul>
+					<li>
+						<a><img src="/img/githubIcon.png" alt="My Github" /></a>
+					</li>
+					<li>
+						<a><img src="/img/linkedinIcon.png" alt="My Linkedin" /></a>
+					</li>
+					<li>
+						<a><img src="/img/twitterIcon.png" alt="My Twitter" /></a>
+					</li>
+					<li>
+						<a><img src="img/codepenIcon.png" alt="My Codepen" /></a>
+					</li>
+					<li>
+						<a><img src="img/freecodecampIcon.png" alt="My Freecodecamp" /></a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- QUICK LINKS CONTAINER -->
+			<div class="links-container">
+				<div>
+					<a href=""
+						><p>CV</p>
+						<img src="/img/cvIcon.png" alt="My CV"
+					/></a>
+				</div>
+
+				<div>
+					<a href=""
+						><p>Email Me</p>
+						<img src="img/emailIcon.png" alt="My Email"
+					/></a>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
