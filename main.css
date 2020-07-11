@@ -83,7 +83,7 @@ p {
 	height: 45px;
 	max-width: 200px;
 	transition: all 1s ease;
-	display:inline-block;
+	display: block;
 }
 
 .social-media-container div img:hover {
