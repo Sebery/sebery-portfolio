@@ -71,7 +71,6 @@ p {
 .social-media-container {
 	display: flex;
 	height: 100%;
-	/*justify-content: center;*/
 	justify-content: space-around;
 	gap: 20px;
 	align-items: center;
@@ -79,8 +78,6 @@ p {
 
 .social-media-container div {
 	flex-basis: 45px;
-	/*top: 0px;*/
-	/*left: 100%;*/
 	height: 45px;
 	max-width: 200px;
 	transition: all 1s ease;
@@ -93,10 +90,12 @@ p {
 
 .social-media-container .last {
 	margin-right: 0px;
+	margin-bottom: 0px;
 }
 
 .social-media-container .first {
 	margin-left: 0px;
+	margin-top: 0px;
 }
 
 .social-media-container img {
@@ -305,9 +304,11 @@ p {
 	display: flex;
 	gap: 20px;
 	position: absolute;
-	right: -80px;
+	/*right: -80px;*/
+	left: 100%;
 	top: 45%;
 	z-index: 900;
+	margin-left: -110px;
 }
 
 .links-container a {
@@ -357,14 +358,17 @@ p {
 	/* SOCIAL MEDIA SECTION */
 	.social-media-container {
 		flex-direction: column;
+		justify-content: flex-start;
 	}
 
 	.social-media-container .last {
 		margin-right: 0px;
+		margin-bottom: 0px;
 	}
 
 	.social-media-container .first {
 		margin-left: 0px;
+		margin-top: 30px;
 	}
 
 	/* NAVIGATION SECTION */
