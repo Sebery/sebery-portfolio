@@ -71,19 +71,19 @@ p {
 .social-media-container {
 	display: flex;
 	height: 100%;
-	justify-content: center;
+	/*justify-content: center;*/
+	justify-content: space-between;
 	gap: 20px;
 	align-items: center;
 }
 
 .social-media-container div {
 	flex-basis: 45px;
-	top: 0px;
-	left: 100%;
+	/*top: 0px;*/
+	/*left: 100%;*/
 	height: 45px;
 	max-width: 200px;
 	transition: all 1s ease;
-	display: block;
 }
 
 .social-media-container div img:hover {
@@ -92,11 +92,11 @@ p {
 }
 
 .social-media-container .last {
-	margin-right: 10px;
+	margin-right: 0px;
 }
 
 .social-media-container .first {
-	margin-left: 10px;
+	margin-left: 0px;
 }
 
 .social-media-container img {
