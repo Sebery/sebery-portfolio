@@ -305,10 +305,10 @@ p {
 	gap: 20px;
 	position: absolute;
 	/*right: -80px;*/
-	left: 100%;
+	right: 0px;
 	top: 45%;
 	z-index: 900;
-	margin-left: -110px;
+	margin-right: -80px;
 }
 
 .links-container a {
