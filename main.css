@@ -10,7 +10,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	background: url(img/Background.png);
 	overflow: hidden;
-	scrollbar-color: #3c4f65 #33313b;
+	/*scrollbar-color: #3c4f65 #33313b;*/
 	position: relative;
         height: 100%;
 	width: 100%;
