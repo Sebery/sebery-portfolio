@@ -302,11 +302,13 @@ p {
 .links-container {
 	transform: rotateZ(90deg);
 	display: flex;
-	position: absolute;
-	right: 0px;
-	top: 65%;
-	transform-origin: 100% 0px;
 	gap: 20px;
+	position: absolute;
+	/*right: -80px;*/
+	left: 100%;
+	top: 45%;
+	z-index: 900;
+	margin-left: -110px;
 }
 
 .links-container a {
